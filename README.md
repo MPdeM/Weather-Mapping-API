@@ -1,8 +1,8 @@
-# python-api-challenge
-Python API weather mapping uses 
-third party APIs with Python. 
+# Weather Mapping API
 
-Data is scratched from OpenWeatherMap (https://openweathermap.org/api). The JSON  are loaded fro the API responses into Pandas DataFrame.  
+Python API weather mapping uses third party APIs. Data is scratched from OpenWeatherMap (https://openweathermap.org/api). 
+
+The JSON  are loaded from the API responses into Pandas DataFrame.  
 
 The notebook randomly select at least 500 cities are generated with varying distance from the ecuator. The weather information is fetched by ussing succesive API calls.  Then several scater plots are geneated:
     Temperature (F) vs. Latitude
